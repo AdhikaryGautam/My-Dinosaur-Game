@@ -89,7 +89,7 @@ function myFunction(tempNthChildVar) {
 	var positionObstacle = obstacleDistance.position();
 
 
-	if (positionObstacle.left>=266.2&&positionObstacle.left<=266.4&&position.top==315.515625) {
+	if (positionObstacle.left>=250&&positionObstacle.left<=280&&position.top==315.515625) {
 	tempParagraph4=document.getElementById('paragraph4');
 	tempParagraph4.innerHTML=("Poor dino is dead!! <br> Shame on you");
 	myStopFunction();
