@@ -1,0 +1,54 @@
+*{
+	overflow-y: hidden;
+
+}
+body{
+	::-webkit-scrollbar {
+
+    width: 0px;  /* Remove scrollbar space */
+    background: transparent;  /* Optional: just make scrollbar invisible */
+}
+}
+#myBox{
+	height:50px;
+	width:100px;
+	background-image:url("./dino.gif");
+	background-size: cover;
+	position: absolute;
+	top:49.3%;
+	left: 16%;
+	z-index: 1;
+}
+#myLine{
+	height:5px;
+	width:100vw;
+	background-color: black;
+	position: absolute;
+	top: 57.5%;
+}
+.obstacle{
+  width: 40px;
+  height: 40px;
+  background-image: url("./cactus.jpg");
+  background-size: 40px 40px;
+  background-repeat: no-repeat;
+  position: absolute;
+  top:51.7%;
+  left: 100%;
+  z-index: 0;
+}
+#mainDiv{
+	position: absolute;
+	left: 85%;
+	top:5%;
+	font-size: 3rem;
+}
+#paragraph3{
+	font-size: 2rem;
+}
+#paragraph4{
+	font-size: 5rem;
+	position: absolute;
+	top:20%;
+	left:35%;
+}
